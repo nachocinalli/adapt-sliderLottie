@@ -1,7 +1,11 @@
 {
   "name": "adapt-sliderLottie",
-  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nachocinalli/adapt-sliderLottie.git"
+  },
   "framework": ">=5.19.1",
+  "version": "1.0.0",
   "homepage": "https://github.com/nachocinalli/adapt-sliderLottie",
   "bugs": "https://github.com/nachocinalli/adapt-sliderLottie/issues",
   "component": "sliderLottie",
@@ -9,6 +13,9 @@
   "displayName": "Slider Lottie",
   "description": "A slider lottie component",
   "main": "/js/adapt-sliderLottie.js",
-  "keywords": ["adapt-plugin", "adapt-component"],
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
   "license": "GPL-3.0"
 }
