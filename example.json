@@ -1,0 +1,79 @@
+{
+  "_id": "c-05",
+  "_parentId": "b-05",
+  "_type": "component",
+  "_component": "sliderLottie",
+  "_classes": "",
+  "_layout": "full",
+  "title": "Slider lottie",
+  "displayTitle": "Slider lottie",
+  "instruction": "Drag the slider to make your choice and select Submit.",
+  "body": "",
+  "_attempts": 1,
+  "_questionWeight": 1,
+  "_canShowModelAnswer": true,
+  "_shouldDisplayAttempts": false,
+  "_correctAnswer": "5",
+  "_correctRange": {
+    "_bottom": 0,
+    "_top": 0
+  },
+  "_label": "Input label",
+  "_lottie": {
+    "src": "course/en/images/lottie.json",
+    "_useFramesAsItems": false
+  },
+  "_items": [
+    {
+      "title": "name-0",
+      "body": "This is the body for name 0"
+    },
+    {
+      "title": "name-1",
+      "body": "This is the body for name 1"
+    },
+    {
+      "title": "name-2",
+      "body": "This is the body for name 2"
+    },
+    {
+      "title": "name-3",
+      "body": "This is the body for name 3"
+    },
+    {
+      "title": "name-4",
+      "body": "This is the body for name 4"
+    },
+    {
+      "title": "name-5",
+      "body": "This is the body for name 5"
+    },
+    {
+      "title": "name-6",
+      "body": "This is the body for name 6"
+    },
+    {
+      "title": "name-7",
+      "body": "This is the body for name 7"
+    },
+    {
+      "title": "name-8",
+      "body": "This is the body for name 8"
+    },
+    {
+      "title": "name-9",
+      "body": "This is the body for name 9"
+    },
+    {
+      "title": "name-10",
+      "body": "This is the body for name 10"
+    }
+  ],
+  "_feedback": {
+    "title": "Feedback",
+    "correct": "Correct answer feedback.",
+    "_incorrect": {
+      "final": "Incorrect answer feedback."
+    }
+  }
+}

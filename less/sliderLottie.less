@@ -1,0 +1,52 @@
+.sliderlottie {
+  &__widget {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  &__slider,
+  &__slider-input {
+    width: 100%;
+  }
+  &__item {
+    margin-top: 10px;
+    text-align: center;
+  }
+  &__item-title {
+    .item-title;
+  }
+  &__slider-container {
+    position: relative;
+    height: 1.5rem;
+    margin-top: 0.5rem;
+    span {
+      position: absolute;
+      top: 0;
+      font-size: 12px;
+      border-radius: 0.375rem;
+      background-color: #fff;
+      border: 1px solid @disabled;
+      padding-left: 0.25rem;
+      padding-right: 0.25rem;
+      padding-top: 0.125rem;
+      padding-bottom: 0.125rem;
+      min-width: 1.5rem;
+      text-align: center;
+    }
+  }
+  &__slider-current {
+    left: 0;
+  }
+  &__slider-total {
+    right: 0;
+  }
+  &.hide-frames &__slider-container {
+    display: none;
+  }
+  &.hide-item &__item {
+    display: none;
+  }
+}
